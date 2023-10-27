@@ -78,31 +78,42 @@ li:hover{
 }
 th{
     font-size: 8pt;
-    width: 160px;
+    width: 120px;
     height: 30px;
+    padding-left: 20px;
     /*background-color: #e7e7e7;*/
     border: solid 0px #009970;
     text-align: left;
 }
 td{
-    width: 160px;
+    width: 120px;
     height: 30px;
+    padding-left: 20px;
     /*background-color: #e7e7e7;*/
     border: solid 0px #009970;
 }
 input[type=date]{
     border: 0px;
+    border-bottom: solid 0.3px #009970;
     width: 160px;
-    height: 20px;
+    height: 40px;
     color:#809c95;
-    background-color: #fff;
     outline: none;
 }
 input[type=time]{
+    padding-left: 0px;
     border: 0px;
-    width: 160px;
-    height: 20px;
+    border-bottom: solid 0.3px #009970;
+    width: 140px;
+    height: 40px;
     color:#809c95;
+    outline: none;
+}
+input[type=time].hora02{
+    border: 0px;
+    border-bottom: solid 0.3px #009970;
+    width: 100px;
+    height: 20px;
     background-color: #fff;
     outline: none;
 }
@@ -136,7 +147,7 @@ select.motivo{
 }
 input[type=text].observacao{
     color:#809c95;
-    width: 100%;
+    width: 315px;
     height: 30px;
     border: 0px;
     border-bottom: 0.5px solid #0e9472;
