@@ -67,6 +67,22 @@ li:hover{
     background-color: #86f3d6;
     color: #009970;
 }
+li.ultimo{
+    width: 220px;
+    height: 30px;
+    background-color: #0085A1;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF
+}
+li.ultimo:hover{
+    transition: 0.3s;
+    background-color: #83dff1;
+    color: #00262e;
+}
 /*--------------------------FIM PÁGINA INICIAL--------------------------*/
 
 /*--------------------------iFRAME--------------------------*/
@@ -209,6 +225,8 @@ table{
     /*text-align: center;*/
     /*color: #fff;*/
 }
-.radio{
-    /*text-align: center;*/
+hr{
+    width: 220px;
+    border: none;
+    border-bottom: solid 0.3px #009970;
 }
