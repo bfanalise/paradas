@@ -74,13 +74,13 @@ li:hover{
     align-items: center;
     width: 380px;
     height: 400px;
-    /*background-color: #eee;*/
+    
 }
 th{
     font-size: 8pt;
     width: 120px;
     height: 30px;
-    padding-left: 20px;
+    padding-left: 0px;
     /*background-color: #e7e7e7;*/
     border: solid 0px #009970;
     text-align: left;
@@ -88,78 +88,93 @@ th{
 td{
     width: 120px;
     height: 30px;
-    padding-left: 20px;
+    padding-left: 0px;
     /*background-color: #e7e7e7;*/
     border: solid 0px #009970;
 }
 input[type=date]{
-    border: 0px;
-    border-bottom: solid 0.3px #009970;
-    width: 160px;
-    height: 40px;
-    color:#809c95;
-    outline: none;
-}
-input[type=time]{
-    padding-left: 0px;
-    border: 0px;
+    border: solid 0.3px #009970;
     border-bottom: solid 0.3px #009970;
     width: 140px;
     height: 40px;
+    color:#ffffff;
+    outline: none;
+    border-radius: 3px;
+    background-color: #009970;
+}
+input[type=time]{
+    padding-left: 0px;
+    border: solid 0.3px #009970;
+    border-bottom: solid 0.3px #009970;
+    width: 134px;
+    height: 40px;
     color:#809c95;
     outline: none;
+    border-radius: 3px;
+}
+tr.hora2{
+    width: 50px;
+}
+th.hora2{
+    width: 50px;
+    
 }
 input[type=time].hora02{
     border: 0px;
-    border-bottom: solid 0.3px #009970;
     width: 100px;
     height: 20px;
     background-color: #fff;
     outline: none;
+    
 }
 select.equipamento{
-    width: 320px;
+    width: 280px;
     height: 30px;
     color:#809c95;
     background-color: #fff;
     outline: none;
-    border: 0px;
+    border: solid 0.3px #009970;
     border-bottom: 0.5px solid #0e9472;
+    border-radius: 3px;
 }
 select.maquina{
-    width: 320px;
+    width: 280px;
     height: 30px;
     border: 0px;
     color:#809c95;
+    border: solid 0.3px #009970;
     border-bottom: 0.5px solid #0e9472;
     background-color: #fff;
     outline: none;
+    border-radius: 3px;
 }
 select.motivo{
-    width: 320px;
+    width: 280px;
     height: 30px;
     color:#809c95;
-    border: 0px;
+    border: solid 0.3px #009970;
     border-bottom: 0.5px solid #0e9472;
     background-color: #fff;
     outline: none;
+    border-radius: 3px;
     
 }
 input[type=text].observacao{
     color:#809c95;
-    width: 315px;
+    width: 273px;
     height: 30px;
-    border: 0px;
+    border: solid 0.3px #009970;
     border-bottom: 0.5px solid #0e9472;
     /*background-color: #d8fdf4;*/
     outline: none;
     padding-left: 5px;
+    border-radius: 3px;
 }
 .observacao::-webkit-input-placeholder{
     color: #809c95;
 }
 input[type=submit]{
-    width: 322px;
+    width: 280px;
     height: 30px;
     background-color: #0e9472;
     color: #fff;
@@ -169,13 +184,28 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     transition: 0.3s;
-    background-color: #0085A1;
+
 }
 .eqp{
-
     width: 240px;
     height: auto;
 }
-td.botao{
-
+.final{
+    padding-left: 0px;
+    width: 284px;
+}
+table{
+    width: 280px;
+    height: auto;
+   
+}
+.classe-radio{
+    width: 250px;
+    height: 50px;
+  
+    /*text-align: center;*/
+    /*color: #fff;*/
+}
+.radio{
+    /*text-align: center;*/
 }
