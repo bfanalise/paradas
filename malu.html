@@ -226,23 +226,23 @@
                         </tr>
                         <tr>
                             <td>
-                                <select class="maquina" name="MÁQUINA">
-                                    <option class="maquina" name="MÁQUINA" disabled selected hidden>Selecione a IBA</option>
-                                    <option class="maquina" name="MÁQUINA">Máquina 01</option>
-                                    <option class="maquina" name="MÁQUINA">Máquina 02</option>
+                                <select class="maquina" name="MÁQUINA" required>
+                                    <option class="maquina" name="MÁQUINA" disabled selected hidden value="">Selecione a IBA</option>
+                                    <option class="maquina" name="MÁQUINA" value="">Máquina 01</option>
+                                    <option class="maquina" name="MÁQUINA" value="">Máquina 02</option>
                                 </select>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" class="observacao" placeholder="Observações" name="OBSERVAÇÃO">
+                                <input type="text" class="observacao" placeholder="Observações" name="OBSERVAÇÃO" required>
                             </td>
                         </tr>
                         </table>
                         <table class="final">
                         <tr class="classe-radio">
-                            <td><input type="radio" value="Parada total" name="TIPO" class="radio">Parada total</td>
-                            <td><input type="radio" value="Parada parcial" name="TIPO" class="radio">Parada parcial</td>
+                            <td><input type="radio" value="Parada total" name="TIPO" class="radio" required>Parada total</td>
+                            <td><input type="radio" value="Parada parcial" name="TIPO" class="radio" required>Parada parcial</td>
                         </tr>
                         <tr class="hora2">
                             <th class="hora2">Hora Final:</th>
