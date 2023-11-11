@@ -230,3 +230,14 @@ hr{
     border: none;
     border-bottom: solid 0.3px #009970;
 }
+li.SantaLuzia{
+    width: 220px;
+    height: 30px;
+    background-color: #FFC000;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF
+}
