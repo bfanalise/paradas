@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px;} a{text-decoration: none;}
+*{margin: 0px; padding: 0px;} a{text-decoration: none; text-transform: uppercase;}
 body{
     color: #009970;
     background-repeat: no-repeat;
