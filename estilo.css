@@ -47,20 +47,23 @@ h5{
     margin-top: 5px;
     /*background-color: #a3a3a3;*/
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 li{
-    width: 220px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     background-color: #009970;
     margin-top: 10px;
     border-radius: 3px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    color: #FFF
+    color: #FFF;
+    text-align: left;
+    font-size: 8pt;
+    text-align: center;
 }
 li:hover{
     transition: 0.3s;
@@ -68,15 +71,16 @@ li:hover{
     color: #009970;
 }
 li.ultimo{
-    width: 220px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     background-color: #0085A1;
     margin-top: 10px;
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF
+    color: #FFF;
+    text-align: center;
 }
 li.ultimo:hover{
     transition: 0.3s;
@@ -230,15 +234,4 @@ hr{
     width: 220px;
     border: none;
     border-bottom: solid 0.3px #009970;
-}
-li.SantaLuzia{
-    width: 220px;
-    height: 30px;
-    background-color: #009970;
-    margin-top: 10px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF
 }
