@@ -179,6 +179,7 @@ select.motivo{
     
 }
 input[type=text].observacao{
+    text-transform: uppercase;
     color:#809c95;
     width: 273px;
     height: 30px;
