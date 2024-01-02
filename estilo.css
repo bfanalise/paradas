@@ -14,7 +14,7 @@ body{
 #transparencia{
     width: 420px;
     height: 520px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(10, 10, 27, 0.212);
     border-radius: 5px;
     display: flex;
     justify-content: center;
