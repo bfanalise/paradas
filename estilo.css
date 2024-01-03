@@ -13,11 +13,12 @@ body{
 }
 #transparencia{
     width: 420px;
-    height: 520px;
-    background-color: rgba(10, 10, 27, 0.212);
+    height: 500px;
+    background-color: rgba(10, 10, 27, 0.096);
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin-top: 10px;
     border: solid 0.5px #ebeaea;
@@ -33,6 +34,35 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+section.principal{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    /*background-color: #e70c0c;*/
+    /*border: solid 0.5px #531111;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.secundaria{
+
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    /*background-color: #2f6699;*/
+    border: solid 0.5px #dddddd;
+    border-radius: 5px;
+}
+.segunda_tabela{
+    /*background-color: #00262e;*/
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
 }
 header{
     width: 100%;
